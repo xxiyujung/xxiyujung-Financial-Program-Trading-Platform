@@ -28,7 +28,7 @@ df_original = load_data("kbars_2330_2022-01-01-2022-11-18.pkl")
 df_original = df_original.drop('Unnamed: 0', axis=1)
 
 # 選擇資料區間
-st.subheader("開始結束的日期, 區間:2022-01-03 至 2022-11-18")
+st.subheader("日期, 區間:2022-01-03 至 2022-11-18")
 start_date = st.text_input('start (日期格式: 2022-01-03)', '2022-02-03')
 end_date = st.text_input('end (日期格式: 2022-11-18)', '2022-10-18')
 start_date = datetime.datetime.strptime(start_date, '%Y-%m-%d')
