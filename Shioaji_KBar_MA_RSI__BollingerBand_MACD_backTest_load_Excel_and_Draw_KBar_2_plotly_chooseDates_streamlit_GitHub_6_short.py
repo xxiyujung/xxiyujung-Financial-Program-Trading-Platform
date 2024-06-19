@@ -12,7 +12,7 @@ import indicator_forKBar_short  # 假設這是您的自訂模組
 # 設定頁面樣式
 html_temp = """
         <div style="background-color:#3872fb;padding:10px;border-radius:10px">
-        <h1 style="color:white;text-align:center;">金融看板與程式交易平台 Financial Dashboard and Program Trading </h1>
+        <h1 style="color:white;text-align:center;">Financial Program Trading Platform </h1>
         <h2 style="color:white;text-align:center;">資科三B 411025928 陳郁蓉 </h2>
         </div>
         """
